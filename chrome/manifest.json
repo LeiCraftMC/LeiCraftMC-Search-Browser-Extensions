@@ -1,0 +1,21 @@
+{
+  "name": "LeiCraft_MC Search",
+  "description": "LeiCraft_MC Search for Chrome",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "LeiCraft_MC Search",
+      "keyword": "search.leicraftmc.de",
+      "search_url": "https://search.leicraftmc.de/search?q={searchTerms}",
+      "suggest_url": "https://search.leicraftmc.de/autocompleter?q={searchTerms}",
+      "favicon_url": "https://search.leicraftmc.de/favicon.ico",
+      "encoding": "UTF-8",
+      "is_default": true
+    }
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["topSites"]
+}
