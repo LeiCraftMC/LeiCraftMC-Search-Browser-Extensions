@@ -17,5 +17,6 @@
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
+  "update_url": "https://clients2.google.com/service/update2/crx",
   "permissions": ["topSites"]
 }
