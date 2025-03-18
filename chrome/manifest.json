@@ -9,7 +9,7 @@
       "keyword": "search.leicraftmc.de",
       "search_url": "https://search.leicraftmc.de/search?q={searchTerms}",
       "suggest_url": "https://search.leicraftmc.de/autocompleter?q={searchTerms}",
-      "favicon_url": "https://search.leicraftmc.de/favicon.ico",
+      "favicon_url": "favicon.ico",
       "encoding": "UTF-8",
       "is_default": true
     }
